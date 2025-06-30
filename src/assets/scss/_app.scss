@@ -1,0 +1,24 @@
+.SideBar {
+  width: 80%;
+
+  .MuiDrawer-paper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+  
+    h2 {
+      font-size: 26px;
+    }
+
+    &__title {
+      text-align: left;
+      justify-content: flex-start;
+      padding: 0;
+    }
+  }
+}
+
+.App__contact {
+  margin: 0 0 0 auto !important;
+}
